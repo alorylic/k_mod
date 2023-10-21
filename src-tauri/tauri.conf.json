@@ -39,6 +39,7 @@
       ],
       "resources":[
         "sqlite3.lib",
+        "sqlite3.dll",
         "mod_manager.db"
       ],
       "windows": {
