@@ -124,5 +124,5 @@ pub fn make_dir(path: &String) {
 }
 
 pub fn remove_all_game_file() {
-    fs::remove_dir_all(format!("./{}", GAMEFILE)).unwrap();
+    fs::remove_dir_all(format!("./{}/{}", MODFILE, GAMEFILE));
 }
