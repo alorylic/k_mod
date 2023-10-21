@@ -11,6 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+.yarn
+
+src-tauri/target
+src-tauri/mods
 
 # Editor directories and files
 .vscode/*
